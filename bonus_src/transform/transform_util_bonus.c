@@ -6,7 +6,7 @@
 /*   By: kshim <kshim@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 16:57:52 by kshim             #+#    #+#             */
-/*   Updated: 2022/11/03 12:00:55 by kshim            ###   ########.fr       */
+/*   Updated: 2022/11/24 10:55:02 by kshim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,12 @@ void	ft_matrix_copy_44(float from_matrix[4][4], float to_matrix[4][4])
 		}
 		i++;
 	}
+	return ;
 }
 
 void	ft_matrix_copy_14(float from_matrix[4], float to_matrix[4])
 {
 	int	i;
-	int	j;
 
 	i = 0;
 	while (i < 4)
@@ -39,6 +39,7 @@ void	ft_matrix_copy_14(float from_matrix[4], float to_matrix[4])
 		to_matrix[i] = from_matrix[i];
 		i++;
 	}
+	return ;
 }
 
 void	ft_multiply_matrix_44_44(float matrix1[4][4], float matrix2[4][4],

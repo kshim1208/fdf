@@ -1,8 +1,7 @@
 NAME = fdf
 
 CC = cc
-FLAGS = -Wall -Wextra -Werror
-DEBUG =
+CFLAGS = -Wall -Wextra -Werror
 RM = rm
 RMFLAGS = -f
 
